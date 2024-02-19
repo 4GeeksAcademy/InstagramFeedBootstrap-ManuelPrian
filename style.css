@@ -1,0 +1,13 @@
+body {
+    background: white;
+    margin: 0;
+}
+div.post {
+    background: white;
+    width: 600px;
+    margin: auto;
+    margin-top: 10px;
+}
+div.post img{
+    width: 100%;
+}
