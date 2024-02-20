@@ -2,7 +2,7 @@ body {
     background: white;
     margin: 0;
 }
-div.post {
+div.post.border {
     background: white;
     width: 600px;
     margin: auto;
@@ -10,4 +10,27 @@ div.post {
 }
 div.post img{
     width: 100%;
+}
+div.container {
+    margin-bottom: 15px;
+}
+div.dfex.post-header {
+    width: 100%;
+    display: flex;
+}
+div.title-photo {
+    width: 50%;
+    display: flex;
+    flex: 1;
+}
+div.span-all {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex: 1;
+}
+div.col-md-3 {
+    width: 1400px;
+    height: 350px;
 }
